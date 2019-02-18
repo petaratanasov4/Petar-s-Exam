@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(102, 255, 51);
+}
+
+.contentHeader {
+    text-align: center;
+}
+
+.articleContent {
+    display: none; 
+}
+.articleContent--shown {
+    display: block; 
+}
+.panel {
+    margin-bottom: 20px;
+    background-color: white;
+    border: 3px solid transparent;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px white;
+    
+}
+.panel-primary{
+    border-color: #337ab7;
+}
+.panel-heading{
+    padding: 10px 15px;
+}
+.panel-primary   .panel-heading {
+    color: white;
+    background-color: #337ab7;
+    border-color: #337ab7;
+}
+.imageContent {
+    height: 300px;
+    width: 100%;
+}

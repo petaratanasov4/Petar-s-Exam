@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<head>
+    <title>Petar's exam</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css" type="text/css" >
+    <script src="Script.js" type="text/javascript"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>Useful Info</h1>
+    <a href="SecondSection.html" >GO TO SECOND SECTION</a>
+  </div>
+  
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12 contentHeader ">
+            <div onclick="toggleContent(0)" class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3>Back end vs Front end</h3>
+                </div>
+                <div id="0" class="articleContent panel-body"> 
+                    <p>The Front end is the part of the web which we are interacting with. It consists of menus, buttons, drop down menus, etc. For example, when we Amazon we are communicating with the front end’s buttons and menus to inform the back end what we want to achieve.</p>
+                    <p>The Back end usually consists of three parts: the server, the application and the database. When we order something, the information is stored in the database which is created on a server, so every time we log in, the information is still there in our account. Back end technologies usually are made of technologies such as PHP, Ruby, Python, etc. </p> 
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 contentHeader ">
+            <div onclick="toggleContent(1)" class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3>Who is the end user?</h3>
+                </div>
+                <div id="1" class="articleContent panel-body"> 
+                    <p>The end user is my friend Ivaylo who is interested in learning some fundamental things about HTML and respective information.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 contentHeader ">
+            <div onclick="toggleContent(2)" class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3>Who is the client?</h3>
+                </div>
+                <div id="2" class="articleContent panel-body"> 
+                    <p>The client is my friend Ivaylo who requested to have a visual representation of the information he needs.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 contentHeader ">
+            <div onclick="toggleContent(3)" class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3>CDN Architecture</h3>
+                </div>
+                <div id="3" class="articleContent panel-body"> 
+                    <p>CDN is short for content delivery network. A content delivery network (CDN) is a system of distributed servers (network) that deliver pages and other Web content to a user, based on the geographic locations of the user, the origin of the webpage and the content delivery server.
+
+                        This service is effective in speeding the delivery of content of websites with high traffic and websites that have global reach. The closer the CDN server is to the user geographically, the faster the content will be delivered to the user. CDNs also provide protection from large surges in traffic.</p>
+                    <p>As mentioned, reduced latency resulting in a faster loading website for users is one of the main benefits of using a CDN. However, there are also other important advantages to using a CDN’s infrastructure for content delivery. For example:
+                        
+                        Downtime Protection & Reliability: CDNs take a large load off the origin server allowing for easy scalability in case you receive a sudden spike in traffic. CDN architecture is designed to handle very large amounts of bandwidth usage by providing ample resources and networking capabilities. This allows for more users to access the website while minimizing the risk that the origin server gets overloaded. CDNs also help increase reliability as if one POP goes down, traffic gets rerouted to a different POP - increasing redundancy.
+                        Increased Security: With the amount of servers a CDN has to offer, a website that is using a CDN also benefits from increased security from things such as DDoS attacks. Many CDN’s, including KeyCDN, have infrastructure built in to help mitigate the risk of attacks. CDNs may also provide additional security features such as the ability to install SSL for a secure connection between the CDN servers and the end user & the ability to create Secure Tokens.
+                        Improved SEO: A cross benefit from a faster loading site which results in a better user experience is that it also helps improve SEO. As Google uses site speed as a ranking factor in their algorithm, having a speedy site will also help move you up in the SERPs. Reliable and modern CDN architecture allows for increased speeds by implementing improvements such as HTTP/2 and SSD-optimized servers for even faster content delivery.</p> 
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 contentHeader ">
+            <div onclick="toggleContent(4)" class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3>History of HTML and CSS</h3>
+                </div>
+                <div id="4" class="articleContent panel-body"> 
+                    <p>The first version of HTML was written by Tim Berners-Lee in 1993. Since then, there have been many different versions of HTML. The most widely used version throughout the 2000's was HTML 4.01, which became an official standard in December 1999.
+                        Another version, XHTML, was a rewrite of HTML as an XML language. XML is a standard markup language that is used to create other markup languages. Hundreds of XML languages are in use today, including GML (Geography Markup Language), MathML, MusicML, and RSS (Really Simple Syndication). Since each of these languages was written in a common language (XML), their content can easily be shared across applications. This makes XML potentially very powerful, and it's no surprise that the W3C would create an XML version of HTML (again, called XHTML). XHTML became an official standard in 2000, and was updated in 2002. XHTML is very similar to HTML, but has stricter rules. Strict rules are necessary for all XML languages, because without it, interoperability between applications would be impossible. 
+                        Most pages on the Web today were built using either HTML 4.01 or XHTML 1.0. However, in recent years, the W3C (in collaboration with another organization, the WHATWG), has been working on a brand new version of HTML, HTML5. Currently (2011), HTML5 is still a draft specification, and is not yet an official standard. However, it is already widely supported by browsers and other web-enabled devices, and is the way of the future. 
+                        </p>
+                    <p>In terms of CSS history, Cascading Style Sheets were first proposed by Håkon Wium Lie in 1994 whilst working at CERN with Tim Berners-Lee. At the time, the World had already given birth to the internet, and this new medium was rapidly being used to present information electronically. The motivation for CSS was simple, to provide a means to style information being presented (which at the time was entirely lacking), and to separate the process of styling from that of content creation — a now obvious progression coming from an era of what was previously dominated by primitive tools such as dial-up bulletin-board systems (BBS’s). In something akin to ‘VHS’ vs ‘Beta’, CCS seemed to take precedence over other style languages being considered, particularly after the first W3C CSS Recommendation (CSS1) being released in 1996.
+                        At around that time, CSS was not the only style language being developed. There was for example DSSSL, however CSS ended up being preferred since it took on a ‘cascading’ nature (as the name suggests) which had the advantage of influencing the document according to the wishes of the author, the reader, or indeed the device that was responsible for rendering the document. Incidentally, this feature was the principle subject of much subsequent dialogue, where debates took place to decide on which party was ultimately responsible for how a document should be rendered. All of the above was happening around late 1994, and the the HTML Editorial Review Board (ERB) was set up by the W3C in late 1995 to make HTML specifications and standards.
+                        It took a number of years for browsers to implement CSS, however, in 1996 Microsoft IE was the first, followed by Netscape, who was also somewhat sitting on the fence by implementing a JS-type competitor (since depreciated), still, to this day browsers render CSS slightly different between each other, a consideration which is at the forefront of modern web developers.
+                        </p> 
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+
+
